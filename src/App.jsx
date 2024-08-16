@@ -8,17 +8,17 @@ import Navbar1 from './components/Navbar1'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import CardPizza from './components/CardPizza'
+import Registro from './components/Registro'
+import LoginPage from './components/LoginPage'
 
 function App() {
   
   return <>
   <Navbar1/>
-  <Home/>  
-  <Footer/>
-
-
-
-   
+  {/*<Home/>*/}
+  <Registro/>
+  <LoginPage />  
+  <Footer/>   
     </>
   
 }
